@@ -1,0 +1,198 @@
+# =============================================================================
+# ATS RESUME — SINGLE SOURCE OF TRUTH (1-PAGE RECRUITER FORMAT)
+# =============================================================================
+# AI AGENT EDITING GUIDE:
+#   1. Edit ONLY this file, then run: python build_resume.py --pdf
+#   2. Keep summary under 320 characters | max 3 bullets per role | 3 projects max
+#   3. Domain context: Zindigi = fintech | PlanetBeyond = telecom vendor
+# =============================================================================
+
+meta:
+  version: "2.2.0"
+  last_updated: "2026-09-01"
+  layout: compact
+  max_bullets_per_role: 3
+  max_featured_projects: 3
+  show_job_technologies: false
+  target_roles:
+    - Java Developer
+    - Full Stack Developer
+    - Spring Boot Engineer
+
+personal:
+  full_name: Malik Abdul Hanan
+  professional_title: Java & Full Stack Developer
+  email: malikabdulhanan30@gmail.com
+  phone: "+92 333 5513350"
+  location: Islamabad, Pakistan
+  linkedin: https://linkedin.com/in/malik-abdul-hanan
+  portfolio: https://ab-hanan.netlify.app
+  github: ""
+
+summary: >
+  Full Stack Engineer with 3+ years in fintech and telecom. Builds Spring Boot
+  microservices, React applications, and secure APIs for banking and
+  subscriber-facing platforms. Currently at Zindigi Microfinance Bank.
+
+experience:
+  - id: zindigi
+    company: Zindigi Microfinance Bank
+    title: Java Developer
+    location: Islamabad, Pakistan
+    start_date: "2026-01"
+    end_date: present
+    current: true
+    highlights:
+      - Develop secure REST APIs and microservices for core banking platform revamp
+      - Implement JPA/Hibernate transactional layers with Spring Security for fintech workloads
+      - Optimize service performance and reliability for production banking operations
+    technologies:
+      - Java
+      - Spring Boot
+      - Spring Security
+      - Microservices
+      - React.js
+      - MySQL
+      - Kafka
+
+  - id: app-in-snap
+    company: App In Snap
+    title: Java Developer
+    location: Islamabad, Pakistan
+    start_date: "2025-01"
+    end_date: "2025-12"
+    current: false
+    highlights:
+      - Led backend delivery for Zindigi banking platform revamp (microservices, secure APIs)
+      - Improved API reliability through query optimization, caching, and JWT authentication
+      - Delivered integration-ready services supporting web and internal client applications
+    technologies:
+      - Java
+      - Spring Boot
+      - Spring Security
+      - Microservices
+      - React.js
+      - Oracle DB
+
+  - id: planetbeyond
+    company: PlanetBeyond
+    title: Software Engineer
+    location: Islamabad, Pakistan
+    start_date: "2023-07"
+    end_date: "2025-06"
+    current: false
+    highlights:
+      - Delivered telecom vendor solutions for Telenor including recharge, cricket, and in-app engagement products
+      - Built web features with React and Spring Boot — frontend, backend, or full-stack by project scope
+      - Shipped subscriber platforms with payment integrations, Kafka pipelines, and real-time updates (SSE)
+    technologies:
+      - React.js
+      - Spring Boot
+      - MySQL
+      - Kafka
+      - Tailwind CSS
+
+projects:
+  - name: Zindigi Tech Revamp
+    featured: true
+    description: Core banking migration to microservices with secure APIs and React client applications.
+    technologies:
+      - Spring Boot
+      - Spring Security
+      - Microservices
+      - React.js
+      - Oracle DB
+
+  - name: Tamasha AI News Builder
+    featured: true
+    description: News automation platform with content orchestration, publishing workflows, and live media players.
+    technologies:
+      - Spring Boot
+      - React
+      - Electron
+      - MySQL
+
+  - name: Balance Boost
+    featured: true
+    description: Telecom recharge SaaS for single and bulk top-ups with payment gateway integration.
+    technologies:
+      - React
+      - Spring Boot
+      - Kafka
+      - Bank Alfalah
+
+  - name: Zindigi Merchant Portal
+    featured: false
+    description: Merchant platform for accounts, transactions, and settlements.
+    technologies:
+      - Spring Boot
+      - React.js
+      - MySQL
+      - Kafka
+
+  - name: Quiz Wiz
+    featured: false
+    description: Interactive quiz product integrated into My Telenor App with real-time scoring.
+    technologies:
+      - React.js
+      - Spring Boot
+      - Kafka
+
+  - name: Telenor White-Label
+    featured: false
+    description: Web interface for SMS monitoring, delivery tracking, and client configuration.
+    technologies:
+      - React.js
+      - Redux
+      - REST APIs
+
+  - name: Global Game Show
+    featured: false
+    description: Trivia platform with leaderboards, content management, and bulk ingestion.
+    technologies:
+      - Spring Boot
+      - React
+      - MySQL
+
+  - name: Telenor Cricket
+    featured: false
+    description: Live cricket scores and commentary platform for telecom subscribers.
+    technologies:
+      - React.js
+      - Spring Boot
+      - MySQL
+
+skills:
+  core:
+    - Java
+    - Spring Boot
+    - Spring Security
+    - React.js
+    - Microservices
+    - REST APIs
+    - MySQL
+    - Kafka
+  supporting:
+    - JPA/Hibernate
+    - JavaScript/TypeScript
+    - Oracle DB
+    - PostgreSQL
+    - Git
+    - Maven
+    - CI/CD
+  domains:
+    - Fintech & Banking
+    - Telecom Vendor Platforms
+    - Payment Gateways (Bank Alfalah, Easypaisa)
+    - Real-Time Systems (SSE, Kafka)
+
+education:
+  - institution: COMSATS University Islamabad
+    degree: B.S. Software Engineering
+    location: Islamabad, Pakistan
+    start_date: "2019"
+    end_date: "2023"
+
+certifications:
+  - name: Core Java Specialization
+    issuer: ""

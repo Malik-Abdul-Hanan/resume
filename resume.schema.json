@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "resume.schema.json",
+  "title": "ATS Resume Schema",
+  "description": "Schema for resume.yaml — AI agents can validate edits against this structure.",
+  "type": "object",
+  "required": ["meta", "personal", "summary", "experience", "skills", "education"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "version": { "type": "string" },
+        "last_updated": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "target_roles": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "personal": {
+      "type": "object",
+      "required": ["full_name", "professional_title", "email", "phone", "location"],
+      "properties": {
+        "full_name": { "type": "string" },
+        "professional_title": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "location": { "type": "string" },
+        "linkedin": { "type": "string" },
+        "portfolio": { "type": "string" },
+        "github": { "type": "string" }
+      }
+    },
+    "summary": { "type": "string", "maxLength": 800 },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "company", "title", "location", "start_date", "end_date", "highlights", "technologies"],
+        "properties": {
+          "id": { "type": "string" },
+          "company": { "type": "string" },
+          "title": { "type": "string" },
+          "location": { "type": "string" },
+          "start_date": { "type": "string" },
+          "end_date": { "type": "string" },
+          "current": { "type": "boolean" },
+          "highlights": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "technologies": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "description", "technologies"],
+        "properties": {
+          "name": { "type": "string" },
+          "featured": { "type": "boolean" },
+          "description": { "type": "string" },
+          "technologies": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "properties": {
+        "languages": { "type": "array", "items": { "type": "string" } },
+        "frontend": { "type": "array", "items": { "type": "string" } },
+        "backend": { "type": "array", "items": { "type": "string" } },
+        "databases": { "type": "array", "items": { "type": "string" } },
+        "tools": { "type": "array", "items": { "type": "string" } },
+        "integrations": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["institution", "degree", "location", "start_date", "end_date"],
+        "properties": {
+          "institution": { "type": "string" },
+          "degree": { "type": "string" },
+          "location": { "type": "string" },
+          "start_date": { "type": "string" },
+          "end_date": { "type": "string" }
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string" },
+          "issuer": { "type": "string" }
+        }
+      }
+    }
+  }
+}
