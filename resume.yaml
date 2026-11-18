@@ -9,7 +9,7 @@
 
 meta:
   version: "2.2.0"
-  last_updated: "2026-09-01"
+  last_updated: "2026-11-18"
   layout: compact
   max_bullets_per_role: 3
   max_featured_projects: 3
@@ -39,11 +39,11 @@ experience:
     company: Zindigi Microfinance Bank
     title: Java Developer
     location: Islamabad, Pakistan
-    start_date: "2026-01"
+    start_date: "2026-07"
     end_date: present
     current: true
     highlights:
-      - Develop secure REST APIs and microservices for core banking platform revamp
+      - Develop, Maintain, Scale secure REST APIs and microservices for core banking platform revamp
       - Implement JPA/Hibernate transactional layers with Spring Security for fintech workloads
       - Optimize service performance and reliability for production banking operations
     technologies:
@@ -53,14 +53,14 @@ experience:
       - Microservices
       - React.js
       - MySQL
-      - Kafka
+      - Oracle DB
 
   - id: app-in-snap
     company: App In Snap
     title: Java Developer
     location: Islamabad, Pakistan
-    start_date: "2025-01"
-    end_date: "2025-12"
+    start_date: "2025-11"
+    end_date: "2026-07"
     current: false
     highlights:
       - Led backend delivery for Zindigi banking platform revamp (microservices, secure APIs)
@@ -79,7 +79,7 @@ experience:
     title: Software Engineer
     location: Islamabad, Pakistan
     start_date: "2023-07"
-    end_date: "2025-06"
+    end_date: "2025-11"
     current: false
     highlights:
       - Delivered telecom vendor solutions for Telenor including recharge, cricket, and in-app engagement products
