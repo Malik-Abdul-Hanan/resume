@@ -18,21 +18,21 @@ Full Stack Engineer with 3+ years in fintech and telecom. Builds Spring Boot mic
 ## Experience
 
 ### Java Developer — Zindigi Microfinance Bank
-Jan 2026 – Present | Islamabad, Pakistan
+Jul 2026 – Present | Islamabad, Pakistan
 
-- Develop secure REST APIs and microservices for core banking platform revamp
+- Develop, Maintain, Scale secure REST APIs and microservices for core banking platform revamp
 - Implement JPA/Hibernate transactional layers with Spring Security for fintech workloads
 - Optimize service performance and reliability for production banking operations
 
 ### Java Developer — App In Snap
-Jan 2025 – Dec 2025 | Islamabad, Pakistan
+Nov 2025 – Jul 2026 | Islamabad, Pakistan
 
 - Led backend delivery for Zindigi banking platform revamp (microservices, secure APIs)
 - Improved API reliability through query optimization, caching, and JWT authentication
 - Delivered integration-ready services supporting web and internal client applications
 
 ### Software Engineer — PlanetBeyond
-Jul 2023 – Jun 2025 | Islamabad, Pakistan
+Jul 2023 – Nov 2025 | Islamabad, Pakistan
 
 - Delivered telecom vendor solutions for Telenor including recharge, cricket, and in-app engagement products
 - Built web features with React and Spring Boot — frontend, backend, or full-stack by project scope
